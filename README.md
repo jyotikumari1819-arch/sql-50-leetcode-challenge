@@ -25,7 +25,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-Basic SELECT statements and filtering rows using multiple conditions.
+Basic SELECT queries, filtering records, and handling NULL values.
 
 ## Repository Structure
 
