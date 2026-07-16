@@ -2,19 +2,21 @@
 
 This repository documents my progress through the LeetCode SQL 50 Study Plan.
 
-My goal is to strengthen my SQL problem-solving skills, understand each query clearly, and prepare for entry-level Python Developer,  and Data Analyst roles.
+My goal is to strengthen my SQL problem-solving skills, understand each query clearly, and prepare for entry-level Python Developer and Data Analyst roles.
 
 ## Progress
 
-**Completed: 1/50**
+**Completed: 3/50**
 
-`█░░░░░░░░░░░░░░░░░░░` 2%
+`██░░░░░░░░░░░░░░░░░░` 6%
 
 ## Problems Completed
 
 | No. | Problem | Concepts | Status | Solution |
 |---|---|---|---|---|
 | 1 | Recyclable and Low Fat Products | SELECT, WHERE, AND | 🟡 | [View](solutions/01-recyclable-and-low-fat-products.sql) |
+| 2 | Find Customer Referee | SELECT, WHERE, OR, IS NULL | 🟡 | [View](solutions/02-find-customer-referee.sql) |
+| 3 | Big Countries | SELECT, WHERE, OR, >= | 🟡 | [View](solutions/03-big-countries.sql) |
 
 ## Learning Status
 
@@ -25,7 +27,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-Basic SELECT queries, filtering records, and handling NULL values.
+Basic SELECT queries, filtering records, combining conditions, and handling NULL values.
 
 ## Repository Structure
 
