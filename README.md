@@ -6,17 +6,16 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 3/50**
-
-`██░░░░░░░░░░░░░░░░░░` 6%
+**Completed: 4/50**
 
 ## Problems Completed
 
 | No. | Problem | Concepts | Status | Solution |
 |---|---|---|---|---|
 | 1 | Recyclable and Low Fat Products | SELECT, WHERE, AND | 🟡 | [View](solutions/01-recyclable-and-low-fat-products.sql) |
-| 2 | Find Customer Referee | SELECT, WHERE, OR, IS NULL | 🟡 | [View](solutions/02-find-customer-referee.sql) |
+| 2 | Find Customer Referee | WHERE, OR, IS NULL | 🟡 | [View](solutions/02-find-customer-referee.sql) |
 | 3 | Big Countries | SELECT, WHERE, OR, >= | 🟡 | [View](solutions/03-big-countries.sql) |
+| 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟡 | [View](solutions/04-article-views-i.sql) |
 
 ## Learning Status
 
@@ -27,7 +26,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-Basic SELECT queries, filtering records, combining conditions, and handling NULL values.
+Filtering records, removing duplicate results, renaming columns, and sorting query output.
 
 ## Repository Structure
 
