@@ -6,16 +6,17 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 4/50**
+**Completed: 5/50**
 
 ## Problems Completed
 
 | No. | Problem | Concepts | Status | Solution |
 |---|---|---|---|---|
-| 1 | Recyclable and Low Fat Products | SELECT, WHERE, AND | 🟡 | [View](solutions/01-recyclable-and-low-fat-products.sql) |
-| 2 | Find Customer Referee | WHERE, OR, IS NULL | 🟡 | [View](solutions/02-find-customer-referee.sql) |
-| 3 | Big Countries | SELECT, WHERE, OR, >= | 🟡 | [View](solutions/03-big-countries.sql) |
+| 1 | Recyclable and Low Fat Products | SELECT, WHERE, AND | 🟢 | [View](solutions/01-recyclable-and-low-fat-products.sql) |
+| 2 | Find Customer Referee | WHERE, OR, IS NULL | 🟢 | [View](solutions/02-find-customer-referee.sql) |
+| 3 | Big Countries | SELECT, WHERE, OR, >= |🟢| [View](solutions/03-big-countries.sql) |
 | 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟡 | [View](solutions/04-article-views-i.sql) |
+| 5 | Invalid Tweets | LENGTH, WHERE | 🟢 | [View](solutions/05-invalid-tweets.sql) |
 
 ## Learning Status
 
@@ -26,7 +27,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-Filtering records, removing duplicate results, renaming columns, and sorting query output.
+Filtering records, handling NULL values, removing duplicate results, sorting query output, and checking text length using `LENGTH()`.
 
 ## Repository Structure
 
