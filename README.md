@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 5/50**
+**Completed: 6/50**
 
 ## Problems Completed
 
@@ -17,6 +17,8 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 3 | Big Countries | SELECT, WHERE, OR, >= |🟢| [View](solutions/03-big-countries.sql) |
 | 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟡 | [View](solutions/04-article-views-i.sql) |
 | 5 | Invalid Tweets | LENGTH, WHERE | 🟢 | [View](solutions/05-invalid-tweets.sql) |
+| 6 | Replace Employee ID With The Unique Identifier | LEFT JOIN, aliases, matching rows | 🟡 | [View](solutions/06-replace-employee-id-with-the-unique-identifier.sql) |
+
 
 ## Learning Status
 
@@ -27,7 +29,18 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-Filtering records, handling NULL values, removing duplicate results, sorting query output, and checking text length using `LENGTH()`.
+🎯 Next Problem: 7 - Product Sales Analysis I
+
+Currently Learning:
+- LEFT JOIN
+- Table aliases
+- Matching rows between tables
+
+Upcoming Topics:
+- More JOINs
+- Aggregate Functions
+- GROUP BY
+- HAVING
 
 ## Repository Structure
 
