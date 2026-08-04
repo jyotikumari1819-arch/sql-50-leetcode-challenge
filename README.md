@@ -21,6 +21,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 7 | Product Sales Analysis I | INNER JOIN, aliases, matching rows | 🟢 | [View](solutions/07-product-sales-analysis-i.sql) |
 | 8 | Customer Who Visited but Did Not Make Any Transactions | LEFT JOIN, IS NULL, COUNT, GROUP BY | 🟡 | [View](solutions/08-customer-who-visited-but-did-not-make-any-transactions.sql) |
 | 9 | Rising Temperature | SELF JOIN, DATEDIFF, aliases, WHERE | 🟡 | [View](solutions/09-rising-temperature.sql) |
+| 10 | Average Time of Process per Machine | SELF JOIN, AVG, ROUND, GROUP BY | 🟡 | [View](solutions/10-average-time-of-process-per-machine.sql) |
 
 ## Learning Status
 
