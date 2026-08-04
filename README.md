@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 6/50**
+**Completed: 7/50**
 
 ## Problems Completed
 
