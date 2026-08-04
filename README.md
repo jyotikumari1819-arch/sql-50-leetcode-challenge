@@ -18,6 +18,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟡 | [View](solutions/04-article-views-i.sql) |
 | 5 | Invalid Tweets | LENGTH, WHERE | 🟢 | [View](solutions/05-invalid-tweets.sql) |
 | 6 | Replace Employee ID With The Unique Identifier | LEFT JOIN, aliases, matching rows | 🟡 | [View](solutions/06-replace-employee-id-with-the-unique-identifier.sql) |
+| 7 | Product Sales Analysis I | INNER JOIN, aliases, matching rows | 🟢 | [View](solutions/07-product-sales-analysis-i.sql) |
 
 
 ## Learning Status
@@ -29,24 +30,19 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-🎯 Next Problem: 7 - Product Sales Analysis I
+🎯 **Next Problem:** 8 — Customer Who Visited but Did Not Make Any Transactions
 
-Currently Learning:
-- LEFT JOIN
+**Currently Learning:**
+
+- `INNER JOIN`
+- `LEFT JOIN`
 - Table aliases
-- Matching rows between tables
+- Matching related records across tables
+- Identifying unmatched rows
 
-Upcoming Topics:
-- More JOINs
-- Aggregate Functions
-- GROUP BY
-- HAVING
+**Upcoming Topics:**
 
-## Repository Structure
-
-- `solutions/` — SQL query solutions
-- `notes/` — explanations and key learnings
-
-## Challenge Goal
-
-Complete all 50 problems and apply the concepts in a practical SQL project.
+- Aggregate functions
+- `GROUP BY`
+- `HAVING`
+- Subqueries
