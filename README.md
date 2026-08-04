@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 9/50**
+**Completed: 10/50**
 
 ## Problems Completed
 
@@ -32,18 +32,20 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-🎯 **Next Problem:** 10 — Average Time of Process per Machine
+🎯 **Next Problem:** 11 — Employee Bonus
 
 **Currently Learning:**
 
 - Self joins
-- Comparing rows from the same table
-- Date differences using `DATEDIFF`
-- Using aliases to distinguish table copies
+- Matching `start` and `end` records
+- Calculating time differences
+- Aggregate functions using `AVG`
+- Grouping records with `GROUP BY`
+- Formatting decimal results using `ROUND`
 
 **Upcoming Topics:**
 
-- Aggregate functions
+- Filtering joined results
+- More aggregate functions
 - Conditional calculations
-- `AVG`
-- `GROUP BY`
+- `HAVING`
