@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 7/50**
+**Completed: 9/50**
 
 ## Problems Completed
 
@@ -15,11 +15,12 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 1 | Recyclable and Low Fat Products | SELECT, WHERE, AND | 🟢 | [View](solutions/01-recyclable-and-low-fat-products.sql) |
 | 2 | Find Customer Referee | WHERE, OR, IS NULL | 🟢 | [View](solutions/02-find-customer-referee.sql) |
 | 3 | Big Countries | SELECT, WHERE, OR, >= |🟢| [View](solutions/03-big-countries.sql) |
-| 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟡 | [View](solutions/04-article-views-i.sql) |
+| 4 | Article Views I | DISTINCT, AS, WHERE, ORDER BY | 🟢  | [View](solutions/04-article-views-i.sql) |
 | 5 | Invalid Tweets | LENGTH, WHERE | 🟢 | [View](solutions/05-invalid-tweets.sql) |
-| 6 | Replace Employee ID With The Unique Identifier | LEFT JOIN, aliases, matching rows | 🟡 | [View](solutions/06-replace-employee-id-with-the-unique-identifier.sql) |
+| 6 | Replace Employee ID With The Unique Identifier | LEFT JOIN, aliases, matching rows | 🟢  | [View](solutions/06-replace-employee-id-with-the-unique-identifier.sql) |
 | 7 | Product Sales Analysis I | INNER JOIN, aliases, matching rows | 🟢 | [View](solutions/07-product-sales-analysis-i.sql) |
-
+| 8 | Customer Who Visited but Did Not Make Any Transactions | LEFT JOIN, IS NULL, COUNT, GROUP BY | 🟡 | [View](solutions/08-customer-who-visited-but-did-not-make-any-transactions.sql) |
+| 9 | Rising Temperature | SELF JOIN, DATEDIFF, aliases, WHERE | 🟡 | [View](solutions/09-rising-temperature.sql) |
 
 ## Learning Status
 
@@ -30,19 +31,18 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-🎯 **Next Problem:** 8 — Customer Who Visited but Did Not Make Any Transactions
+🎯 **Next Problem:** 10 — Average Time of Process per Machine
 
 **Currently Learning:**
 
-- `INNER JOIN`
-- `LEFT JOIN`
-- Table aliases
-- Matching related records across tables
-- Identifying unmatched rows
+- Self joins
+- Comparing rows from the same table
+- Date differences using `DATEDIFF`
+- Using aliases to distinguish table copies
 
 **Upcoming Topics:**
 
 - Aggregate functions
+- Conditional calculations
+- `AVG`
 - `GROUP BY`
-- `HAVING`
-- Subqueries
