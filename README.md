@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 16/50**
+**Completed: 20/50**
 
 ## Problems Completed
 
@@ -28,6 +28,10 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 14 | Confirmation Rate | LEFT JOIN, SUM, COUNT, IFNULL, ROUND, GROUP BY | 🟡 | [View](solutions/14-confirmation-rate.sql) |
 | 15 | Not Boring Movies | WHERE, MODULO, AND, !=, ORDER BY, DESC | 🟢 | [View](solutions/15-not-boring-movies.sql) |
 | 16 | Average Selling Price | LEFT JOIN, BETWEEN, weighted average, SUM, IFNULL, ROUND | 🟡 | [View](solutions/16-average-selling-price.sql) |
+| 17 | Project Employees I | INNER JOIN, AVG, ROUND, GROUP BY | 🟡 | [View](solutions/17-project-employees-i.sql) |
+| 18 | Percentage of Users Attended a Contest | COUNT, subquery, percentage calculation, ROUND, GROUP BY, ORDER BY | 🟡 | [View](solutions/18-percentage-of-users-attended-a-contest.sql) |
+| 19 | Queries Quality and Percentage | AVG, SUM(condition), COUNT, ROUND, GROUP BY | 🟡 | [View](solutions/19-queries-quality-and-percentage.sql) |
+| 20 | Monthly Transactions I | DATE_FORMAT, COUNT, SUM(condition), CASE WHEN, GROUP BY | 🟡 | [View](solutions/20-monthly-transactions-i.sql) |
 
 ## Learning Status
 
@@ -38,20 +42,19 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-🎯 **Next Problem:** 17
+🎯 **Next Problem:** 21
 
 **Currently Learning:**
 
-- Combining multiple tables with `JOIN`
-- Understanding `LEFT JOIN` vs `INNER JOIN`
-- Using `CROSS JOIN` for all possible combinations
-- Grouping data using `GROUP BY`
-- Filtering grouped results using `HAVING`
-- Conditional counting using `SUM(condition)`
-- Handling missing values with `IS NULL` and `IFNULL`
-- Working with date ranges using `BETWEEN`
-- Calculating weighted averages
-- Formatting results using `ROUND`
+- Aggregate functions with `SUM`, `COUNT`, and `AVG`
+- Conditional aggregation using `SUM(condition)` and `CASE WHEN`
+- Percentage and ratio calculations
+- Subqueries
+- Date formatting using `DATE_FORMAT`
+- Grouping results using `GROUP BY`
+- Sorting with multiple conditions
+- Weighted average calculations
+- Combining tables with `JOIN`
 
 **Topics to Revise:**
 
@@ -59,17 +62,19 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 - `CROSS JOIN`
 - `HAVING` vs `WHERE`
 - Conditional aggregation
-- Weighted average calculations
+- Subqueries
+- Weighted averages
 - Joining tables using multiple conditions
+- Joining records using date ranges
 
 ## Upcoming Topics
 
 - More aggregate functions
-- Percentage and ratio calculations
 - Advanced `GROUP BY`
-- Conditional aggregation
-- More date-based queries
+- More conditional aggregation
+- Date-based queries
 - Subqueries
+- More complex joins
 
 ## Repository Structure
 
