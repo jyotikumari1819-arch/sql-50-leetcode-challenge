@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 20/50**
+**Completed: 30/50**
 
 ## Problems Completed
 
@@ -32,6 +32,16 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 18 | Percentage of Users Attended a Contest | COUNT, subquery, percentage calculation, ROUND, GROUP BY, ORDER BY | 🟡 | [View](solutions/18-percentage-of-users-attended-a-contest.sql) |
 | 19 | Queries Quality and Percentage | AVG, SUM(condition), COUNT, ROUND, GROUP BY | 🟡 | [View](solutions/19-queries-quality-and-percentage.sql) |
 | 20 | Monthly Transactions I | DATE_FORMAT, COUNT, SUM(condition), CASE WHEN, GROUP BY | 🟡 | [View](solutions/20-monthly-transactions-i.sql) |
+| 21 | Immediate Food Delivery II | MIN, GROUP BY, subquery, JOIN, conditional SUM, percentage, ROUND | 🟡 | [View](solutions/21-immediate-food-delivery-ii.sql) |
+| 22 | Game Play Analysis IV | MIN, GROUP BY, subquery, JOIN, DATE_ADD, COUNT DISTINCT, ROUND | 🟡 | [View](solutions/22-game-play-analysis-iv.sql) |
+| 23 | Number of Unique Subjects Taught by Each Teacher | COUNT DISTINCT, GROUP BY | 🟢 | [View](solutions/23-number-of-unique-subjects-taught-by-each-teacher.sql) |
+| 24 | User Activity for the Past 30 Days I | BETWEEN, COUNT DISTINCT, GROUP BY, date filtering | 🟢 | [View](solutions/24-user-activity-for-the-past-30-days-i.sql) |
+| 25 | Product Sales Analysis III | MIN, GROUP BY, subquery, INNER JOIN, matching earliest records | 🟡 | [View](solutions/25-product-sales-analysis-iii.sql) |
+| 26 | Classes With at Least 5 Students | GROUP BY, COUNT, HAVING | 🟢 | [View](solutions/26-classes-with-at-least-5-students.sql) |
+| 27 | Find Followers Count | COUNT, GROUP BY, ORDER BY | 🟢 | [View](solutions/27-find-followers-count.sql) |
+| 28 | Biggest Single Number | GROUP BY, HAVING, COUNT, subquery, MAX | 🟡 | [View](solutions/28-biggest-single-number.sql) |
+| 29 | Customers Who Bought All Products | GROUP BY, HAVING, COUNT DISTINCT, subquery | 🟡 | [View](solutions/29-customers-who-bought-all-products.sql) |
+| 30 | The Number of Employees Which Report to Each Employee | SELF JOIN, COUNT, AVG, ROUND, GROUP BY, ORDER BY | 🟡 | [View](solutions/30-the-number-of-employees-which-report-to-each-employee.sql) |
 
 ## Learning Status
 
@@ -42,19 +52,21 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Current Focus
 
-🎯 **Next Problem:** 21
+🎯 **Next Problem:** 31
 
 **Currently Learning:**
 
-- Aggregate functions with `SUM`, `COUNT`, and `AVG`
+- Aggregate functions using `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX`
 - Conditional aggregation using `SUM(condition)` and `CASE WHEN`
 - Percentage and ratio calculations
 - Subqueries
-- Date formatting using `DATE_FORMAT`
+- Date formatting and date calculations
 - Grouping results using `GROUP BY`
+- Filtering grouped results using `HAVING`
+- Counting unique values using `COUNT(DISTINCT ...)`
 - Sorting with multiple conditions
 - Weighted average calculations
-- Combining tables with `JOIN`
+- Combining tables using different types of `JOIN`
 
 **Topics to Revise:**
 
@@ -66,15 +78,23 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 - Weighted averages
 - Joining tables using multiple conditions
 - Joining records using date ranges
+- Finding earliest records using `MIN`
 
 ## Upcoming Topics
 
-- More aggregate functions
-- Advanced `GROUP BY`
-- More conditional aggregation
-- Date-based queries
-- Subqueries
-- More complex joins
+- More advanced joins
+- Window functions
+- Ranking functions such as `RANK()` and `DENSE_RANK()`
+- `ROW_NUMBER()`
+- Common Table Expressions (`WITH`)
+- More subqueries
+- Date difference and date manipulation
+- String functions
+- Conditional logic using `CASE WHEN`
+- More advanced aggregation
+- Finding consecutive records
+- Comparing rows within the same table
+- More complex filtering and grouping
 
 ## Repository Structure
 
