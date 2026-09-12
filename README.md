@@ -6,7 +6,7 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 
 ## Progress
 
-**Completed: 30/50**
+**Completed: 50/50 ✅**
 
 ## Problems Completed
 
@@ -42,6 +42,26 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 | 28 | Biggest Single Number | GROUP BY, HAVING, COUNT, subquery, MAX | 🟡 | [View](solutions/28-biggest-single-number.sql) |
 | 29 | Customers Who Bought All Products | GROUP BY, HAVING, COUNT DISTINCT, subquery | 🟡 | [View](solutions/29-customers-who-bought-all-products.sql) |
 | 30 | The Number of Employees Which Report to Each Employee | SELF JOIN, COUNT, AVG, ROUND, GROUP BY, ORDER BY | 🟡 | [View](solutions/30-the-number-of-employees-which-report-to-each-employee.sql) |
+| 31 | Primary Department for Each Employee | Window function, COUNT OVER, PARTITION BY, OR, filtering | 🟡 | [View](solutions/31-primary-department-for-each-employee.sql) |
+| 32 | Triangle Judgement | CASE WHEN, AND, arithmetic conditions | 🟢 | [View](solutions/32-triangle-judgement.sql) |
+| 33 | Consecutive Numbers | SELF JOIN, aliases, consecutive IDs, DISTINCT | 🔁 | [View](solutions/33-consecutive-numbers.sql) |
+| 34 | Product Price at a Given Date | LEFT JOIN, correlated subquery, MAX, date filtering, COALESCE, DISTINCT | 🔁 | [View](solutions/34-product-price-at-a-given-date.sql) |
+| 35 | Last Person to Fit in the Bus | Window function, SUM OVER, running total, ORDER BY, LIMIT | 🔁 | [View](solutions/35-last-person-to-fit-in-the-bus.sql) |
+| 36 | Count Salary Categories | UNION ALL, conditional aggregation, SUM(condition), BETWEEN | 🟡 | [View](solutions/36-count-salary-categories.sql) |
+| 37 | Employees Whose Manager Left the Company | WHERE, NOT IN, subquery, IS NOT NULL, ORDER BY | 🟢 | [View](solutions/37-employees-whose-manager-left-the-company.sql) |
+| 38 | Exchange Seats | CASE WHEN, modulo, subquery, MAX, odd/even logic, ORDER BY | 🟡 | [View](solutions/38-exchange-seats.sql) |
+| 39 | Movie Rating | JOIN, GROUP BY, COUNT, AVG, date filtering, ORDER BY, LIMIT, UNION ALL | 🟡 | [View](solutions/39-movie-rating.sql) |
+| 40 | Restaurant Growth | CTE, SUM, GROUP BY, window functions, rolling sum, moving average, ROW_NUMBER, ROUND | 🔁 | [View](solutions/40-restaurant-growth.sql) |
+| 41 | Friend Requests II: Who Has the Most Friends | UNION ALL, GROUP BY, COUNT, ORDER BY, LIMIT | 🟡 | [View](solutions/41-friend-requests-ii-who-has-the-most-friends.sql) |
+| 42 | Investments in 2016 | GROUP BY, HAVING, subqueries, tuple comparison, SUM, ROUND | 🔁 | [View](solutions/42-investments-in-2016.sql) |
+| 43 | Department Top Three Salaries | CTE, DENSE_RANK, PARTITION BY, window functions, JOIN, top-N per group | 🔁 | [View](solutions/43-department-top-three-salaries.sql) |
+| 44 | Fix Names in a Table | UPPER, LOWER, LEFT, SUBSTRING, CONCAT, ORDER BY | 🟢 | [View](solutions/44-fix-names-in-a-table.sql) |
+| 45 | Patients With a Condition | LIKE, wildcards, string pattern matching, OR | 🟢 | [View](solutions/45-patients-with-a-condition.sql) |
+| 46 | Delete Duplicate Emails | DELETE, SELF JOIN, duplicate removal, comparison by id | 🟡 | [View](solutions/46-delete-duplicate-emails.sql) |
+| 47 | Second Highest Salary | DISTINCT, ORDER BY, LIMIT, OFFSET, subquery | 🟡 | [View](solutions/47-second-highest-salary.sql) |
+| 48 | Group Sold Products By The Date | GROUP BY, COUNT DISTINCT, GROUP_CONCAT, ORDER BY, DISTINCT | 🟡 | [View](solutions/48-group-sold-products-by-the-date.sql) |
+| 49 | List the Products Ordered in a Period | JOIN, WHERE, date filtering, SUM, GROUP BY, HAVING | 🟢 | [View](solutions/49-list-the-products-ordered-in-a-period.sql) |
+| 50 | Find Users With Valid E-Mails | REGEXP, string pattern matching, anchors, character classes, collation | 🔁 | [View](solutions/50-find-users-with-valid-e-mails.sql) |
 
 ## Learning Status
 
@@ -50,57 +70,67 @@ My goal is to strengthen my SQL problem-solving skills, understand each query cl
 - 🔴 Needed full guidance
 - 🔁 Needs revision
 
-## Current Focus
+## Key Concepts Practised
 
-🎯 **Next Problem:** 31
-
-**Currently Learning:**
-
-- Aggregate functions using `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX`
+- `SELECT`, `WHERE`, `DISTINCT`, aliases, and sorting
+- `INNER JOIN`, `LEFT JOIN`, `SELF JOIN`, and `CROSS JOIN`
+- Aggregate functions: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+- `GROUP BY` and `HAVING`
+- `COUNT(DISTINCT ...)`
 - Conditional aggregation using `SUM(condition)` and `CASE WHEN`
+- Subqueries and correlated subqueries
+- Date filtering and date calculations
 - Percentage and ratio calculations
-- Subqueries
-- Date formatting and date calculations
-- Grouping results using `GROUP BY`
-- Filtering grouped results using `HAVING`
-- Counting unique values using `COUNT(DISTINCT ...)`
-- Sorting with multiple conditions
-- Weighted average calculations
-- Combining tables using different types of `JOIN`
+- Weighted averages
+- String functions and pattern matching
+- `UNION ALL`
+- CTEs using `WITH`
+- Window functions
+- `ROW_NUMBER()` and `DENSE_RANK()`
+- Running totals and moving averages
+- Top-N-per-group problems
+- `DELETE` with self joins
+- Regular expressions using `REGEXP`
 
-**Topics to Revise:**
+## Topics to Revise
 
 - Self joins
 - `CROSS JOIN`
 - `HAVING` vs `WHERE`
 - Conditional aggregation
-- Subqueries
-- Weighted averages
-- Joining tables using multiple conditions
-- Joining records using date ranges
-- Finding earliest records using `MIN`
-
-## Upcoming Topics
-
-- More advanced joins
+- Correlated subqueries
 - Window functions
-- Ranking functions such as `RANK()` and `DENSE_RANK()`
-- `ROW_NUMBER()`
-- Common Table Expressions (`WITH`)
-- More subqueries
-- Date difference and date manipulation
-- String functions
-- Conditional logic using `CASE WHEN`
-- More advanced aggregation
-- Finding consecutive records
-- Comparing rows within the same table
-- More complex filtering and grouping
+- Running totals
+- Moving averages
+- `ROW_NUMBER()` and `DENSE_RANK()`
+- Top-N-per-group problems
+- Consecutive record problems
+- Tuple comparisons
+- Regex and string pattern matching
+- Date-range joins
+- Weighted averages
+
+## What I Learned
+
+Completing this challenge helped me move from basic SQL filtering to more advanced query patterns involving joins, aggregation, subqueries, CTEs, window functions, ranking, date operations, and string manipulation.
+
+I also learned that solving a problem once is not always enough. Some SQL patterns require revision and repeated practice before they become intuitive, so I tracked which problems I solved independently and which ones I want to revisit.
 
 ## Repository Structure
 
 - `solutions/` — SQL query solutions
 - `notes/` — explanations, mistakes, and key learnings
 
+## Next Steps
+
+- Revise the problems marked 🔁
+- Re-solve selected problems without looking at previous solutions
+- Practise more SQL interview questions
+- Apply SQL concepts in a practical data analysis project
+- Work with a real dataset using SQL, Excel, Python, and Power BI/Tableau
+
 ## Challenge Goal
 
-Complete all 50 problems, revise difficult SQL concepts, and apply the concepts in a practical SQL/data analysis project.
+✅ Complete all 50 problems  
+🔁 Revise difficult SQL concepts  
+📊 Apply SQL concepts in a practical SQL/data analysis project
